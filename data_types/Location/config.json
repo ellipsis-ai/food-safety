@@ -1,0 +1,12 @@
+{
+  "exportId" : "z46_0iF5R_egdT6bHK-3tg",
+  "name" : "Location",
+  "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
+  "isDataType" : true,
+  "isTest" : false,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

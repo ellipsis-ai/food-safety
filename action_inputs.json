@@ -1,0 +1,61 @@
+[ {
+  "exportId" : "BRa79GuNSNWKYJMpO2OAxg",
+  "name" : "correctiveActions",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Describe what corrective actions were taken, if any, or enter \"none\".",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "BmFHwbDWQ-2X8xYEum_qSA",
+  "name" : "date",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What date did this occur? (MM/DD/YYYY)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "gL2AtpL9QeaVwVoyXL4qyA",
+  "name" : "location",
+  "paramType" : {
+    "exportId" : "z46_0iF5R_egdT6bHK-3tg",
+    "name" : "Location"
+  },
+  "question" : "Where did this incident/issue occur?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "ibPXwMucR5OhxwXvEMZuHw",
+  "name" : "time",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What time did this occur? e.g. 12:00pm",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "nzYtQNflSPComUvc6N027Q",
+  "name" : "file",
+  "paramType" : {
+    "exportId" : "File",
+    "name" : "File"
+  },
+  "question" : "Upload an image if possible.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "smSNQjg1RlO5vTkrfzxpqA",
+  "name" : "incidentDescription",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Describe the incident or issue.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]

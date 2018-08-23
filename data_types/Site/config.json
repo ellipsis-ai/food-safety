@@ -1,0 +1,12 @@
+{
+  "exportId" : "DdJNeFM7TCuiUSiZdAp3Tw",
+  "name" : "Site",
+  "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
+  "isDataType" : true,
+  "isTest" : false,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}
