@@ -1,5 +1,6 @@
 function(location, date, time, incidentDescription, correctiveActions, file, ellipsis) {
-  const box = require('ellipsis-box');
+  const box = ellipsis.require('ellipsis-box@0.2.1');
+const boxFiles = box.files(ellipsis, ellipsis.env.BOX_CONFIG, ellipsis.env.BOX_APP_ENTERPRISE_ID);
 const client = require('google-client')(ellipsis);
 const {google} = require('googleapis');
 const sheets = google.sheets('v4');
@@ -35,7 +36,7 @@ function uploadFile() {
   return new Promise((resolve, reject) => {
     if (file) {
       file.fetch().then(fetchResult => {
-        box.files(ellipsis).uploadWithTimestamp(fetchResult.filename, fetchResult.contentType, fetchResult.value).then(uploadResult => {
+        boxFiles.uploadWithTimestamp(fetchResult.filename, fetchResult.contentType, fetchResult.value).then(uploadResult => {
           resolve({ url: uploadResult.url, filename: fetchResult.filename });
         });
       });
