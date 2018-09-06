@@ -1,7 +1,7 @@
 {
   "exportId" : "z46_0iF5R_egdT6bHK-3tg",
   "name" : "Location",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : false,
   "isDataType" : true,
   "isTest" : false,
